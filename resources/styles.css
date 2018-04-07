@@ -94,49 +94,111 @@ html {
 .middle {
   display: column;
   justify-content: center;
+  margin-top: 3rem;
+  width: 960px;
 }
 
 .images3 {
   display: inline-flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .box {
   display: flex;
-  border-style: solid;
-  border-width: thick;
-  border-color: black;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.explode , .watch , .glasses {
+  display: column;
+  border: 4px solid black;
+  margin-left: 3rem;
 }
 
 .imgpen {
+  height: 9rem;
+  width: 9rem;
+  margin: 2rem 2rem;
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/pen.png);
-
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .imgwatch {
+  height: 9rem;
+  width: 9rem;
+  margin: 2rem 2rem;
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/watch.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain
+  background-size: contain;
 }
 .imgglass {
+  height: 9rem;
+  width: 9rem;
+  margin: 2rem 2rem;
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/glasses.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain
+  background-size: contain;
 }
 
+.txtpen, .txtwatch, .txtglass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  background-color: black;
+}
 
 .information {
   display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
 
-.location {
-  display: flex;
+.box2 {
+  display: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.hours {
+.location, .hour {
   display: flex;
+  color: white;
+  background-color: black;
+  padding: 1rem 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 12rem;
+}
+
+/* FOOTER */
+
+.ftitle {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color:white;
+  background-color: black;
+  height: 5rem;
+  padding-left: 3rem;
+}
+
+/* MEDIA */
+
+@media only screen and (max-width:1024px) {
+
+}
+
+@media only screen and (max-width:470px) {
+
 }
