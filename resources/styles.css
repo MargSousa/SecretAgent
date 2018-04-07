@@ -1,0 +1,142 @@
+/*  BODY   */
+
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  margin: 0 auto;
+  width: 960px;
+}
+
+/*  HEADER  */
+
+.logo {
+  font-size: 1rem;
+  background-color: black;
+  width: 100%;
+  top: 0px;
+  display: inline-flex;
+  align-items:center;
+  justify-content: flex-start;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+.logoimg {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 1.5rem;
+  width: 4rem;
+  margin-left: 3.5rem;
+  margin-right: 1rem;
+  display: flex;
+}
+
+.logotitle {
+  color: white;
+}
+
+.imageheader {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.textheader {
+  background-color: black;
+  color: white;
+  max-width: 20rem;
+  text-align: left;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4rem;
+  margin-top: 9rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.textheader p {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
+}
+
+.textheader h1 {
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.nav {
+  background-color: firebrick;
+  color: white;
+  width: 100%;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  align-items: center;
+  justify-content: space-around;
+  display: inline-flex;
+}
+
+
+/* MIDDLE SECTION */
+
+.middle {
+  display: column;
+  justify-content: center;
+}
+
+.images3 {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+}
+
+.imgpen {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/pen.png);
+
+}
+.imgwatch {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/watch.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain
+}
+.imgglass {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/glasses.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain
+}
+
+
+.information {
+  display: flex;
+}
+
+.location {
+  display: flex;
+}
+
+.hours {
+  display: flex;
+}
