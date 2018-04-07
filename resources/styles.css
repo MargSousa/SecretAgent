@@ -196,9 +196,36 @@ html {
 /* MEDIA */
 
 @media only screen and (max-width:1024px) {
+  .box {
+    width: 47%;
+  }
 
+  .glasses {
+    display: none;
+  }
 }
 
-@media only screen and (max-width:470px) {
+@media only screen and (max-width: 470px) {
+  .images3,
+  .information {
+    flex-wrap: wrap;
+  }
 
+  .box {
+    width: 90%;
+    margin: auto;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .box2 {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+  .footer {
+    text-align: center;
+  }
 }
